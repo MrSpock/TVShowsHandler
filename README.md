@@ -13,8 +13,8 @@ When you watch a lot of shows that is many tasks. How about just automate all th
 ### Howto
 - put two scripts somewhere. Mine are in /etc/scripts
 - edit settings.json and provide path to transmission-done.sh for script-torrent-done-filename variable. Remember to shutdown daemon before makeing any changes. Otherwise you will loose your changes when daemn be restarted.
-- check permissions to PLEX root folder transmission-daemon user
-- set all CAPITAL letters variables in transmission-done.sh file begining
+- check permissions to PLEX root folder. Transmission-daemon user must have read-write permissions.
+- set all CAPITAL letters variables in transmission-done.sh
 - set variables in tvshowhandler.py (TVSHOWS_PATH - your PLEX root for TV Shows,SUBTITLE_DOWNLOAD, NAPI_SH_PATH)
 
 All done !
