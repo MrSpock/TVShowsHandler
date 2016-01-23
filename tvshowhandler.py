@@ -34,7 +34,7 @@ class TVShow:
         return "TVShow(title:{0}, season:{1}, episode:{2}, resolution:{3})".format(self.title.replace("."," "),self.season,self.episode,self.resolution)
 
 
-pattern="(.*)\.(S\d+|s\d+)(E\d+|s\d+e\d+)\.(720p|1080p|HDTV)(.*)\.(\w{3})"
+pattern="(.*)\.(S\d+|s\d+)(E\d+|e\d+)\.(720p|1080p|HDTV)(.*)\.(\w{3})"
 #pattern="(.*)\.(S\d+|s\d+)(E\d+|s\d+e\d+)\.(720p|1080p)(.*)"
 
 ## try to split video name to its parts and extract video metadata
