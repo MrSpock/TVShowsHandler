@@ -109,5 +109,5 @@ if __name__ == "__main__":
             ## dociagamy napisy
             download_subtitles(path.join(dest_d,dest_f))
         else:
-            print "Show now parsed"
+            print "Show not parsed"
 
